@@ -1,6 +1,5 @@
 # need to run an entire ubuntu os just for this, so it might be a little too big
-
-FROM ubuntu:22.04
+FROM ghcr.io/just-containers/systemd-ubuntu:22.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
