@@ -4,7 +4,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # Install system dependencies
 RUN apt update && \
-    apt install -y libpython3-dev libdbus-1-dev bluetooth bluez dbus libbluetooth-dev build-essential git && \
+    apt install -y libpython3-dev libdbus-1-dev bluetooth bluez dbus libbluetooth-dev build-essential libglib2.0-dev git && \
     pip install --upgrade pip && \
     pip install \
       nxbt \
