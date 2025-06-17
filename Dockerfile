@@ -25,4 +25,4 @@ STOPSIGNAL SIGRTMIN+3
 EXPOSE 8000
 
 # Start NXBT web UI
-CMD ["nxbt", "webapp"]
+CMD ["/sbin/init"]
